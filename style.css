@@ -1,0 +1,141 @@
+.wrap {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(28, 32, 38);
+}
+
+.wrap_header {
+    width: 500px;
+    height: 500px;
+}
+
+.wrap_background {
+    position: absolute;
+}
+
+.wrap_image {
+    position: absolute;
+    background-image: url(/jpg/11.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 764px;
+    height: 563px;
+    right: 15px;
+}
+
+.wrap_box {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 250px;
+    position: absolute;
+    left: 10%;
+    top: 190px;
+    height: 200px;
+    color: aliceblue;
+    /* background-color: white;
+    border: 2px solid rgb(255, 153, 0); */
+    z-index: 2;
+}
+
+.wrap_box_text {
+    text-align: left;
+    word-break: break-all;
+    font-size: 15px;
+    padding: 5px;
+}
+
+.wrap_box_button {
+    display: flex;
+    width: 100%;
+}
+
+.wrap_button {
+    width: 100%;
+    height: 35px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    background-color: rgb(4, 128, 230);
+    text-align: center;
+    font-size: 12px;
+    border: 0;
+}
+
+.midle {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 730px;
+    align-content: center;
+}
+
+.midle_box {
+    display: flex;
+    width: 100%;
+    height: 300px;
+    /* background-color: yellow; */
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.midle_block {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    width: 250px;
+    height: 300px;
+    /* background-color: rgb(77, 108, 245); */
+    margin-left: 5px;
+    margin-right: 5px;
+    color: aliceblue;
+}
+
+.midle_block_image {
+    background-image: url(/jpg/mini_1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 120px;
+    height: 100px;
+}
+
+.foter {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 700px;
+    margin-top: 25px;
+}
+
+.foter_block {
+    display: flex;
+    width: 300px;
+    height: 400px;
+    background-color: rgb(86, 86, 95);
+}
+
+.foter_block_panel {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 700px;
+    height: 100px;
+    margin-top: 35px;
+    color: white;
+    background-color: rgb(1, 1, 26);
+}
+
+.futer_button {
+    width: 200px;
+    height: 30px;
+    border: 0;
+    color: aliceblue;
+    font-family: "Arial Narrow Bold", sans-serif;
+    background-color: rgb(83, 83, 184);
+}
