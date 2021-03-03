@@ -1,215 +1,214 @@
-                    .wrap {
-                        position: relative;
-                        width: 100%;
-                        height: 100%;
-                        background-color: rgb(28, 32, 38);
-                    }
-                    
-                    .wrap_header {
-                        width: 500px;
-                        height: 500px;
-                    }
-                    
-                    .wrap_background {
-                        position: absolute;
-                    }
-                    
-                    .wrap_image {
-                        position: absolute;
-                        background-image: url(./jpg/11.png);
-                        background-size: contain;
-                        background-repeat: no-repeat;
-                        width: 764px;
-                        height: 563px;
-                        right: 15px;
-                    }
-                    
-                    .wrap_box {
-                        display: flex;
-                        align-items: flex-end;
-                        justify-content: center;
-                        flex-wrap: wrap;
-                        width: 437px;
-                        position: absolute;
-                        left: 10%;
-                        top: 190px;
-                        color: aliceblue;
-                        z-index: 2;
-                    }
-                    
-                    .wrap_box_text {
-                        text-align: left;
-                        word-break: break-all;
-                        font-size: 30px;
-                        padding: 15px;
-                    }
-                    
-                    .wrap_box_text_1 {
-                        text-align: left;
-                        word-break: break-all;
-                        font-size: 35px;
-                        padding: 5px;
-                    }
-                    
-                    .wrap_box_button {
-                        display: flex;
-                        justify-content: center;
-                    }
-                    
-                    .wrap_button {
-                        display: flex;
-                        align-items: center;
-                        justify-content: center;
-                        height: 45px;
-                        margin-left: 5px;
-                        margin-right: 5px;
-                        background-color: rgb(4, 128, 230);
-                        color: white;
-                        text-align: center;
-                        font-size: 20px;
-                        border: 0;
-                        font-family: initial;
-                        width: 210px;
-                    }
-                    
-                    .midle {
-                        display: flex;
-                        flex-wrap: wrap;
-                        width: 100%;
-                        height: 100%;
-                        align-content: center;
-                    }
-                    
-                    .midle_box {
-                        display: flex;
-                        width: 100%;
-                        height: 100%;
-                        justify-content: space-evenly;
-                        align-items: center;
-                        margin-top: 140px;
-                        flex-direction: column;
-                    }
-                    
-                    .midle_block {
-                        display: flex;
-                        flex-direction: column;
-                        align-items: center;
-                        width: 70%;
-                        height: 100%;
-                        /* background-color: rgb(77, 108, 245); */
-                        margin-left: 5px;
-                        margin-right: 5px;
-                        color: aliceblue;
-                        font-size: 25px;
-                    }
-                    
-                    .midle_block_image {
-                        background-image: url(./jpg/mini_1.png);
-                        background-size: contain;
-                        background-repeat: no-repeat;
-                        width: 250px;
-                        height: 250px;
-                    }
-                    
-                    .foter {
-                        display: flex;
-                        justify-content: center;
-                        flex-direction: column;
-                        align-items: center;
-                        width: 100%;
-                        height: 100%;
-                        margin-top: 125px;
-                    }
-                    
-                    .foter_block {
-                        display: flex;
-                        flex-direction: column;
-                        width: 500px;
-                        height: 100%;
-                        background-color: rgb(86, 86, 95);
-                        align-items: center;
-                    }
-                    
-                    .foter_block_text1 {
-                        display: flex;
-                        align-items: center;
-                        border-bottom: 1px solid rgb(145, 145, 145);
-                        width: 400px;
-                        height: 130px;
-                        color: rgb(255, 255, 255);
-                        font-family: sans-serif;
-                        font-size: 25px;
-                    }
-                    
-                    .foter_block_text_2 {
-                        display: flex;
-                        align-items: center;
-                        justify-items: center;
-                        border-bottom: 1px solid rgb(145, 145, 145);
-                        width: 400px;
-                        height: 100px;
-                        color: rgb(255, 255, 255);
-                        font-family: sans-serif;
-                        font-size: 25px;
-                    }
-                    
-                    .foter_block_button {
-                        width: 400px;
-                        height: 80px;
-                        background-color: rgb(64, 113, 206);
-                        border: 0;
-                        text-align: center;
-                        color: antiquewhite;
-                        margin-top: 25px;
-                        margin-bottom: 25px;
-                        font-size: 30px;
-                        font-family: inherit;
-                    }
-                    
-                    .foter_block_panel {
-                        display: flex;
-                        align-items: center;
-                        justify-content: space-around;
-                        width: 700px;
-                        height: 100px;
-                        margin-top: 135px;
-                        margin-bottom: 35px;
-                        color: white;
-                        background-color: rgb(1, 1, 26);
-                    }
-                    
-                    .futer_button {
-                        width: 300px;
-                        height: 50px;
-                        border: 0;
-                        color: aliceblue;
-                        font-family: "Arial Narrow Bold", sans-serif;
-                        background-color: rgb(83, 83, 184);
-                        margin-right: 20px;
-                    }
-                    
-                    .my-green {
-                        color: rgb(56, 255, 132);
-                        margin-right: 24px;
-                    }
-                    
-                    .foter_block_item-text {
-                        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-                        font-style: initial;
-                    }
-                    
-                    .color_for_link {
-                        color: aliceblue;
-                        text-decoration: none;
-                    }
-                    
-                    .color-icon {
-                        color: rgb(30, 119, 202);
-                    }
-                    
-                    .foter_block_end_img {
-                        display: flex;
-                        background-image: url(./jpg/mini_2.png);
-                        width: 30px;
-                        height: 30px;
-                    }
+.wrap {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(28, 32, 38);
+}
+
+.wrap_header {
+    width: 500px;
+    height: 500px;
+}
+
+.wrap_background {
+    position: absolute;
+}
+
+.wrap_image {
+    position: absolute;
+    background-image: url(./jpg/11.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 764px;
+    height: 563px;
+    right: 15px;
+}
+
+.wrap_box {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 437px;
+    position: absolute;
+    left: 10%;
+    top: 190px;
+    color: aliceblue;
+    z-index: 2;
+}
+
+.wrap_box_text {
+    text-align: left;
+    word-break: break-all;
+    font-size: 30px;
+    padding: 15px;
+}
+
+.wrap_box_text_1 {
+    text-align: left;
+    word-break: break-all;
+    font-size: 35px;
+    padding: 5px;
+}
+
+.wrap_box_button {
+    display: flex;
+    justify-content: center;
+}
+
+.wrap_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: rgb(4, 128, 230);
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    border: 0;
+    font-family: initial;
+    width: 210px;
+}
+
+.midle {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    align-content: center;
+}
+
+.midle_box {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 140px;
+    flex-direction: column;
+}
+
+.midle_block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    height: 100%;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: aliceblue;
+    font-size: 25px;
+}
+
+.midle_block_image {
+    background-image: url(./jpg/mini_1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 250px;
+}
+
+.foter {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin-top: 125px;
+}
+
+.foter_block {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 100%;
+    background-color: rgb(86, 86, 95);
+    align-items: center;
+}
+
+.foter_block_text1 {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(145, 145, 145);
+    width: 400px;
+    height: 130px;
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    font-size: 25px;
+}
+
+.foter_block_text_2 {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    border-bottom: 1px solid rgb(145, 145, 145);
+    width: 400px;
+    height: 100px;
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    font-size: 25px;
+}
+
+.foter_block_button {
+    width: 400px;
+    height: 80px;
+    background-color: rgb(64, 113, 206);
+    border: 0;
+    text-align: center;
+    color: antiquewhite;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 30px;
+    font-family: inherit;
+}
+
+.foter_block_panel {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 700px;
+    height: 100px;
+    margin-top: 135px;
+    margin-bottom: 35px;
+    color: white;
+    background-color: rgb(1, 1, 26);
+}
+
+.futer_button {
+    width: 300px;
+    height: 50px;
+    border: 0;
+    color: aliceblue;
+    font-family: "Arial Narrow Bold", sans-serif;
+    background-color: rgb(83, 83, 184);
+    margin-right: 20px;
+}
+
+.my-green {
+    color: rgb(56, 255, 132);
+    margin-right: 24px;
+}
+
+.foter_block_item-text {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: initial;
+}
+
+.color_for_link {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.color-icon {
+    color: rgb(30, 119, 202);
+}
+
+.foter_block_end_img {
+    display: flex;
+    background-image: url(./jpg/mini_2.png);
+    width: 30px;
+    height: 30px;
+}
