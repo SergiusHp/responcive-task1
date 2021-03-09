@@ -11,7 +11,7 @@
         flex-direction: column;
     }
     .color-icon {
-        font-size: 22px;
+        font-size: 1.4rem;
     }
     .color_for_link {
         font-size: 1.1rem;
@@ -19,7 +19,7 @@
 }
 
 @media (min-width: 1500px) {
-    .midle {
+    .middle-wrapper {
         flex-wrap: nowrap;
     }
     .midle_box {
@@ -29,7 +29,7 @@
         font-size: 1rem;
     }
     .color-icon {
-        font-size: 15px;
+        font-size: 1rem;
     }
     .color_for_link {
         font-size: 0.8rem;
