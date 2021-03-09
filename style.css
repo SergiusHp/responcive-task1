@@ -61,7 +61,7 @@ body {
 .wrap_box_text {
     text-align: left;
     word-break: break-all;
-    font-size: 30px;
+    font-size: 1.5rem;
     padding: 15px;
 }
 
@@ -214,12 +214,14 @@ body {
 .color_for_link {
     color: aliceblue;
     text-decoration: none;
-    font-size: 0.8rem;
+    font-size: 1.5rem;
+    margin-left: 5px;
 }
 
 .color-icon {
     color: rgb(30, 119, 202);
     margin-left: 20px;
+    font-size: 30px;
 }
 
 .foter_block_end_img {
@@ -247,5 +249,4 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 35%;
 }
