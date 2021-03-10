@@ -61,14 +61,14 @@ body {
 .wrap_box_text {
     text-align: left;
     word-break: break-all;
-    font-size: 30px;
+    font-size: 1.5rem;
     padding: 15px;
 }
 
 .wrap_box_text_1 {
     text-align: left;
     word-break: break-all;
-    font-size: 35px;
+    font-size: 2.5rem;
     padding: 5px;
 }
 
@@ -87,13 +87,13 @@ body {
     background-color: rgb(4, 128, 230);
     color: white;
     text-align: center;
-    font-size: 20px;
+    font-size: 1rem;
     border: 0;
     font-family: initial;
     width: 210px;
 }
 
-.midle {
+.middle-wrapper {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
@@ -120,7 +120,7 @@ body {
     margin-left: 5px;
     margin-right: 5px;
     color: aliceblue;
-    font-size: 25px;
+    font-size: 1.5rem;
 }
 
 .midle_block_image {
@@ -157,7 +157,7 @@ body {
     width: 400px;
     height: 130px;
     color: rgb(255, 255, 255);
-    font-size: 25px;
+    font-size: 1.5rem;
 }
 
 .foter_block_text_2 {
@@ -168,7 +168,7 @@ body {
     width: 400px;
     height: 100px;
     color: rgb(255, 255, 255);
-    font-size: 25px;
+    font-size: 1.5rem;
 }
 
 .foter_block_button {
@@ -214,12 +214,14 @@ body {
 .color_for_link {
     color: aliceblue;
     text-decoration: none;
-    font-size: 0.8rem;
+    font-size: 1.5rem;
+    margin-left: 5px;
 }
 
 .color-icon {
     color: rgb(30, 119, 202);
     margin-left: 20px;
+    font-size: 2.5rem;
 }
 
 .foter_block_end_img {
@@ -247,5 +249,4 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 35%;
 }

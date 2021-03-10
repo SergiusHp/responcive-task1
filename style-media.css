@@ -1,0 +1,37 @@
+@media (min-width: 992px) {
+    .midle_box {
+        flex-direction: row;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .wrap_box_text_1 {
+        font-size: 1.5rem;
+    }
+    .foter_block_end {
+        flex-direction: column;
+    }
+    .color-icon {
+        font-size: 1.4rem;
+    }
+    .color_for_link {
+        font-size: 1.1rem;
+    }
+}
+
+@media (min-width: 1500px) {
+    .middle-wrapper {
+        flex-wrap: nowrap;
+    }
+    .midle_box {
+        flex-direction: column;
+    }
+    .wrap_box_text_1 {
+        font-size: 1rem;
+    }
+    .color-icon {
+        font-size: 1rem;
+    }
+    .color_for_link {
+        font-size: 0.8rem;
+    }
+}
