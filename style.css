@@ -36,9 +36,9 @@ body {
     background-image: url(./jpg/11.png);
     background-size: contain;
     background-repeat: no-repeat;
-    width: 764px;
-    height: 563px;
-    right: 15px;
+    width: 900px;
+    height: 654px;
+    right: 79px;
 }
 
 .wrap_box {
@@ -70,9 +70,10 @@ body {
 }
 
 .hider-under-text {
-    font-size: 1.33rem;
+    font-size: 1.3rem;
     font-family: 'IBM Plex Sans', sans-serif;
     font-weight: 100;
+    line-height: 30px;
 }
 
 .wrap_box_text_1 {
@@ -90,15 +91,21 @@ body {
     align-items: center;
     justify-content: center;
     height: 45px;
-    margin-left: 5px;
-    margin-right: 5px;
-    background-color: rgb(4, 128, 230);
+    margin-top: 9px;
+    background-color: rgb(66 129 238);
     color: white;
     text-align: center;
     font-size: 1rem;
     border: 0;
     font-family: initial;
-    width: 210px;
+    width: 176px;
+    height: 46px;
+}
+
+.wrap_button_1 {
+    width: 165px;
+    background-color: #1f2229;
+    margin-left: 19px;
 }
 
 .middle-wrapper {
@@ -134,8 +141,8 @@ body {
     background-image: url(./jpg/mini_1.png);
     background-size: contain;
     background-repeat: no-repeat;
-    width: 250px;
-    height: 250px;
+    width: 150px;
+    height: 150px;
 }
 
 .foter {
