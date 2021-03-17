@@ -28,7 +28,7 @@ body {
 
 .wrap_header {
     width: 500px;
-    height: 500px;
+    height: 630px;
 }
 
 .wrap_image {
@@ -79,6 +79,7 @@ body {
 .wrap_box_text_1 {
     text-align: center;
     font-size: 2.5rem;
+    width: 310px;
 }
 
 .wrap_box_button {
@@ -110,19 +111,20 @@ body {
 
 .middle-wrapper {
     display: flex;
-    flex-direction: column;
-    width: 80%;
+    flex-direction: row;
+    width: 65%;
     margin-top: 100px;
     margin: 0 auto;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .midle_box {
     display: flex;
-    width: 100%;
+    width: 40%;
     height: 100%;
-    justify-content: space-evenly;
     align-items: center;
-    margin-top: 140px;
+    margin-top: 166px;
     flex-direction: column;
 }
 
@@ -130,11 +132,12 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 70%;
-    height: 100%;
+    width: 382px;
+    height: 376px;
     color: aliceblue;
-    font-size: 1.5rem;
+    font-size: 1.45rem;
     margin: 10px 0px 10px 0px;
+    line-height: 1.55;
 }
 
 .midle_block_image {
@@ -142,7 +145,13 @@ body {
     background-size: contain;
     background-repeat: no-repeat;
     width: 150px;
-    height: 150px;
+    height: 122px;
+}
+
+.middle-wrapper h2 {
+    font-size: 1.5rem;
+    margin-top: 16px;
+    margin-bottom: 3px;
 }
 
 .foter {
