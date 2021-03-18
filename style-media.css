@@ -4,7 +4,6 @@
         margin-left: 5px;
         margin-right: 5px;
     }
-    .middle-wrapper {}
     .wrap_box_text_1 {
         font-size: 1.5rem;
     }
@@ -20,10 +19,8 @@
 }
 
 @media (min-width: 1500px) {
-    .middle-wrapper {}
-    .midle_box {}
     .wrap_box_text_1 {
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
     .color-icon {
         font-size: 1rem;
