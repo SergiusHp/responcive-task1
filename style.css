@@ -1,22 +1,22 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
+    margin: 0px;
 }
 
 .color_for_link {
-    font-family: "Arial Narrow";
+    font-family: 'IBM Plex Sans', sans-serif;
 }
 
 .foter_block_item-text {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    font-style: initial;
+    font-family: 'IBM Plex Sans', sans-serif;
 }
 
 .foter_block_text1 {
-    font-family: sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
 }
 
 .foter_block_text_2 {
-    font-family: sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
 }
 
 .wrap {
@@ -28,11 +28,7 @@ body {
 
 .wrap_header {
     width: 500px;
-    height: 500px;
-}
-
-.wrap_background {
-    position: absolute;
+    height: 705px;
 }
 
 .wrap_image {
@@ -40,36 +36,44 @@ body {
     background-image: url(./jpg/11.png);
     background-size: contain;
     background-repeat: no-repeat;
-    width: 764px;
-    height: 563px;
-    right: 15px;
+    width: 900px;
+    height: 654px;
+    right: 79px;
 }
 
 .wrap_box {
     display: flex;
-    align-items: flex-end;
-    justify-content: center;
     flex-wrap: wrap;
-    width: 437px;
+    width: 470px;
     position: absolute;
-    left: 10%;
-    top: 190px;
+    left: 270px;
+    top: 197px;
     color: aliceblue;
     z-index: 2;
 }
 
-.wrap_box_text {
-    text-align: left;
-    word-break: break-all;
-    font-size: 1.5rem;
-    padding: 15px;
+.wrap_box_text_hider {
+    display: block;
+    font-size: 2.76rem;
+    margin-bottom: 16px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 600;
+    line-height: 54px;
+}
+
+.hider-under-text {
+    font-size: 1.25rem;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 100;
+    line-height: 29px;
+    color: #8892a5;
+    font-weight: 400;
 }
 
 .wrap_box_text_1 {
-    text-align: left;
-    word-break: break-all;
-    font-size: 2.5rem;
-    padding: 5px;
+    text-align: center;
+    font-size: 1.2rem;
+    width: 525px;
 }
 
 .wrap_box_button {
@@ -81,33 +85,47 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 45px;
-    margin-left: 5px;
-    margin-right: 5px;
-    background-color: rgb(4, 128, 230);
+    height: 49px;
+    margin-top: 26px;
+    background-color: rgb(66 129 238);
     color: white;
     text-align: center;
-    font-size: 1rem;
+    font-size: 0.85rem;
     border: 0;
-    font-family: initial;
-    width: 210px;
+    width: 176px;
+    margin-left: 1px;
+    font-weight: 600;
+    font-family: 'IBM Plex Sans';
+}
+
+.wrap_button_1 {
+    width: 168px;
+    background-color: #1f2229;
+    margin-left: 17px;
+    height: 49px;
 }
 
 .middle-wrapper {
     display: flex;
+    flex-direction: row;
+    width: 65%;
+    margin-top: 100px;
+    margin: 0 auto;
+    justify-content: center;
     flex-wrap: wrap;
-    width: 100%;
-    height: 100%;
-    align-content: center;
+}
+
+.middle-wrapper h2 {
+    margin-top: 6px;
+    margin-bottom: 2px;
 }
 
 .midle_box {
     display: flex;
-    width: 100%;
+    width: 40%;
     height: 100%;
-    justify-content: space-evenly;
     align-items: center;
-    margin-top: 140px;
+    margin-top: 166px;
     flex-direction: column;
 }
 
@@ -115,20 +133,48 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 70%;
-    height: 100%;
-    margin-left: 5px;
-    margin-right: 5px;
+    width: 382px;
+    height: 376px;
     color: aliceblue;
-    font-size: 1.5rem;
+    font-size: 1.45rem;
+    margin: 10px 0px 10px 0px;
+    line-height: 1.55;
 }
 
 .midle_block_image {
     background-image: url(./jpg/mini_1.png);
     background-size: contain;
     background-repeat: no-repeat;
-    width: 250px;
-    height: 250px;
+    width: 150px;
+    height: 122px;
+}
+
+.text-middle {
+    opacity: 0.5;
+    font-size: 1.6rem;
+}
+
+.prodect-hider {
+    width: 600px;
+    height: 200px;
+    color: white;
+    font-size: 1.25rem;
+    text-align: center;
+    font-weight: 400;
+}
+
+.prodect-hider h2 {
+    font-size: 2.36rem;
+    margin-bottom: 18px;
+}
+
+.prodect-text {
+    display: flex;
+    line-height: 1.5;
+    color: rgb(138 148 167);
+    margin-top: -2px;
+    text-align: center;
+    font-weight: 400;
 }
 
 .foter {
@@ -138,104 +184,153 @@ body {
     align-items: center;
     width: 100%;
     height: 100%;
-    margin-top: 125px;
+    margin-top: 18px;
 }
 
 .foter_block {
     display: flex;
     flex-direction: column;
-    width: 500px;
-    height: 100%;
-    background-color: rgb(86, 86, 95);
+    width: 345px;
+    height: 492px;
+    background-color: rgb(44, 48, 57);
     align-items: center;
+    margin-top: 50px;
 }
 
-.foter_block_text1 {
+.foter_block_item-text-price {
+    font-size: 1rem;
+    margin-top: 17px;
+    margin-left: -1px;
+    opacity: 0.5;
+}
+
+.dollar {
+    font-size: 2.4rem;
+    margin-top: 2px;
+    margin-left: 0px;
+}
+
+.foter_block_text_1 {
     display: flex;
     align-items: center;
     border-bottom: 1px solid rgb(145, 145, 145);
-    width: 400px;
-    height: 130px;
+    width: 86%;
+    height: 100px;
     color: rgb(255, 255, 255);
-    font-size: 1.5rem;
+    font-size: 1.8rem;
+    margin-top: 2px;
 }
 
-.foter_block_text_2 {
+.foter_block_text_1-1 {
     display: flex;
     align-items: center;
     justify-items: center;
     border-bottom: 1px solid rgb(145, 145, 145);
-    width: 400px;
-    height: 100px;
+    width: 86%;
+    height: 72px;
     color: rgb(255, 255, 255);
-    font-size: 1.5rem;
+    font-size: 1rem;
+    word-spacing: 1px;
+}
+
+.foter_block_text_1-2 {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    border-bottom: 1px solid rgb(145, 145, 145);
+    width: 86%;
+    height: 52px;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
 }
 
 .foter_block_button {
-    width: 400px;
-    height: 80px;
+    width: 295px;
+    height: 47px;
     background-color: rgb(64, 113, 206);
     border: 0;
     text-align: center;
     color: antiquewhite;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    font-size: 30px;
+    margin-top: 24px;
+    font-size: 14px;
     font-family: inherit;
 }
 
 .foter_block_panel {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    width: 700px;
-    height: 100px;
-    margin-top: 135px;
-    margin-bottom: 35px;
+    justify-content: space-between;
+    width: 580px;
+    height: 176px;
+    margin-top: 93px;
+    margin-bottom: 37px;
     color: white;
-    background-color: rgb(1, 1, 26);
+    background-color: rgb(21 24 29);
+    margin-right: 10px;
+}
+
+.foter_block-text {
+    display: flex;
+    text-align: center;
+    font-size: 2rem;
+    margin-left: 31px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 600;
 }
 
 .futer_button {
-    width: 300px;
+    width: 159px;
     height: 50px;
     border: 0;
     color: aliceblue;
-    font-family: "Arial Narrow Bold", sans-serif;
-    background-color: rgb(83, 83, 184);
-    margin-right: 20px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    background-color: rgb(60 117 223);
+    font-size: 0.6rem;
+    margin-right: 33px;
 }
 
 .my-green {
-    color: rgb(56, 255, 132);
-    margin-right: 24px;
+    color: rgb(73, 203, 177);
+    margin-right: 16px;
 }
 
 .color_for_link {
     color: aliceblue;
     text-decoration: none;
-    font-size: 1.5rem;
-    margin-left: 5px;
+    font-size: 1.3rem;
+    margin-left: 16px;
+    margin-right: 8px;
+    font-family: 'IBM Plex Sans';
+    font-weight: 200;
 }
 
 .color-icon {
     color: rgb(30, 119, 202);
     margin-left: 20px;
-    font-size: 2.5rem;
+    font-size: 1.8rem;
 }
 
 .foter_block_end_img {
     display: flex;
+    margin-top: 12px;
     background-image: url(./jpg/mini_2.png);
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     background-position: center;
     background-size: cover;
+}
+
+.foter_block_end {
+    width: 57%;
+    height: 200px;
+    margin-top: 23px;
+    flex-direction: column;
 }
 
 .foter_block_end_1 {
     display: flex;
     justify-content: space-between;
+    height: 80px;
 }
 
 .foter_block_end_social-icon {
@@ -243,6 +338,7 @@ body {
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
+    width: 158px;
 }
 
 .foter_block_end_social-link {
