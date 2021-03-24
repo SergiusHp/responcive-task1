@@ -1,4 +1,27 @@
 @media (max-width: 992px) {
+    .wrap_box {
+        width: 700px;
+        height: 400px;
+        left: 85px;
+        top: 142px;
+        text-align: center;
+        justify-content: center;
+        background-color: #2a6280;
+        padding: 50px;
+    }
+    .wrap_box_text_hider {
+        font-size: 3rem;
+    }
+    .hider-under-text {
+        font-size: 2.5rem;
+        line-height: 1.5;
+    }
+    .wrap_button {
+        width: 300px;
+        height: 80px;
+        font-size: 1.7rem;
+        font-weight: 300;
+    }
     .middle-wrapper {
         width: 100%;
     }
@@ -45,6 +68,14 @@
     }
     .foter_block_end {
         width: 90%;
+    }
+    .foter_block_panel {
+        width: 90%;
+    }
+    .futer_button {
+        width: 290px;
+        height: 100px;
+        font-size: 1.1rem;
     }
 }
 
