@@ -3,6 +3,11 @@ body {
     margin: 0px;
 }
 
+.btn:active {
+    background-color: #a0bff09e;
+    color: white;
+}
+
 .color_for_link {
     font-family: 'IBM Plex Sans', sans-serif;
 }
@@ -79,6 +84,7 @@ body {
 .wrap_box_button {
     display: flex;
     justify-content: center;
+    outline: none;
 }
 
 .wrap_button {
@@ -96,6 +102,7 @@ body {
     margin-left: 1px;
     font-weight: 600;
     font-family: 'IBM Plex Sans';
+    outline: none;
 }
 
 .wrap_button_1 {
@@ -103,6 +110,7 @@ body {
     background-color: #1f2229;
     margin-left: 17px;
     height: 49px;
+    outline: none;
 }
 
 .middle-wrapper {
@@ -255,6 +263,7 @@ body {
     margin-top: 24px;
     font-size: 14px;
     font-family: inherit;
+    outline: none;
 }
 
 .foter_block_panel {

@@ -6,7 +6,7 @@
         top: 142px;
         text-align: center;
         justify-content: center;
-        background-color: #2a6280;
+        background-color: #373c449e;
         padding: 50px;
     }
     .wrap_box_text_hider {
@@ -21,6 +21,7 @@
         height: 80px;
         font-size: 1.7rem;
         font-weight: 300;
+        outline: none;
     }
     .middle-wrapper {
         width: 100%;
@@ -65,6 +66,7 @@
         height: 100px;
         font-size: 35px;
         margin-bottom: 22px;
+        outline: none;
     }
     .foter_block_end {
         width: 90%;
@@ -76,6 +78,7 @@
         width: 290px;
         height: 100px;
         font-size: 1.1rem;
+        outline: none;
     }
 }
 
